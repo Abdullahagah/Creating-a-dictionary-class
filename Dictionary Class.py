@@ -45,18 +45,3 @@ class MapSınıfı():
             self.__Sınıf1.__sözlük.append(i)
         print("Sözlük Birleştirildi.")
 
-deneme1 = MapSınıfı("deneme1")
-deneme2 = MapSınıfı("deneme2")
-
-deneme1.sözlük_ekle("istanbul",8)
-deneme1.sözlük_ekle("ankara",6)
-
-deneme1.sözlük_ekle("erzincan",8)
-deneme2.sözlük_ekle("kars",4)
-
-deneme1.sözlük_bastır()
-deneme2.sözlük_bastır()
-
-deneme1.sözlük_birleştir(deneme1,deneme2)
-
-deneme1.sözlük_bastır()
